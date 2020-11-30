@@ -41,7 +41,7 @@ class TodoDetailState extends State<TodoDetail> {
 
     return Scaffold(
       resizeToAvoidBottomPadding: false,
-      backgroundColor: Colors.indigoAccent,
+      backgroundColor: Colors.black26,
       body: Padding(
         padding: const EdgeInsets.fromLTRB(20.0, 40.0, 20.0, 0.0),
         child: Column(
@@ -73,7 +73,7 @@ class TodoDetailState extends State<TodoDetail> {
               margin: EdgeInsets.symmetric(vertical: 30.0),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15.0),
-                color: Colors.white,
+                color: Colors.white60,
                 boxShadow: [
                   BoxShadow(
                       color: Colors.black38,

@@ -19,7 +19,8 @@ class TodoListState extends State {
       getData();
     }
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 246, 246, 246),
+      backgroundColor: Colors.black87,
+      //Color.fromARGB(255, 246, 246, 246),
       body: Padding(
         padding: const EdgeInsets.only(left: 8.0, right: 8.0),
         child: todoListItems(),
@@ -29,9 +30,9 @@ class TodoListState extends State {
             navigateToDetail(Todo('', 3, ''));
           },
           tooltip: "Add new Todo",
-          child: new Icon(
+          child: Icon(
             Icons.add,
-            size: 35.0,
+            size: 45.0,
           )),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );

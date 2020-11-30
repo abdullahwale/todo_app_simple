@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SimpleAppBar extends StatelessWidget {
   final String title;
-  final double barHeight = 56.0;
+  final double barHeight = 45.0;
 
   SimpleAppBar(this.title);
 
@@ -23,7 +23,7 @@ class SimpleAppBar extends StatelessWidget {
           style: TextStyle(
               color: Colors.black54,
               fontFamily: 'Manrope',
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.bold,
               fontSize: 26.0),
         ),
       ),
