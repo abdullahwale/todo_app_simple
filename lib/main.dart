@@ -3,7 +3,7 @@ import 'package:todo_app_simple/ui/simple_app_bar.dart';
 import 'package:todo_app_simple/screens/todolist.dart';
 
 void main() {
-  MaterialPageRoute.debugEnableFadingRoutes = true;
+  //MaterialPageRoute.debugEnableFadingRoutes = true;
   runApp(MyApp());
 }
 
@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Todos',
+      title: 'TodoApp',
       theme: ThemeData(fontFamily: 'Manrope', hintColor: Colors.black26),
-      home: new MyHomePage(title: 'Todos'),
+      home: MyHomePage(title: 'TodoApp'),
     );
   }
 }
