@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/ui/simple_app_bar.dart';
-import 'package:todo_app/screens/todolist.dart';
+import 'package:todo_app_simple/ui/simple_app_bar.dart';
+import 'package:todo_app_simple/screens/todolist.dart';
 
 void main() {
   MaterialPageRoute.debugEnableFadingRoutes = true;
